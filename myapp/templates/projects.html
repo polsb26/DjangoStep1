@@ -1,0 +1,8 @@
+ {% extends 'layouts/base.html' %}
+
+{% block content %}
+<h1>PROJECTS</h1>
+{% for project in projects %}
+    <li>{{project.name}}</li>
+{% endfor %}   
+{% endblock content %}
